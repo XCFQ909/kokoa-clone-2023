@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 0 25px;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .screen-header__title {
@@ -17,4 +18,15 @@
 
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+.screen-header__red-dot {
+    background-color: tomato;
+    display: block;
+    height: 7px;
+    width: 7px;
+    border-radius: 3.5px;
+    position: absolute;
+    top: 50px;
+    right: 18px;
 }
