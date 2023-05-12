@@ -1,0 +1,8 @@
+.user-component__subtitle i {
+    color: rgba(255, 0, 0, 0.678);
+    margin-left: 5px;
+}
+
+.user-component__column:last-child i {
+    color: rgba(0, 0, 0, 1);
+  }
