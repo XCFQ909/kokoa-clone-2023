@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -27,7 +27,7 @@
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i><span class="screen-header__red-dot"></span></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a><span class="screen-header__red-dot"></span></span>
         </div>
     </header>
 
@@ -40,12 +40,67 @@
             />
             <div class="user-component__text">
               <h4 class="user-component__title">Nicolas</h4>
-              <h6 class="user-component__subtitle">+1 787-493-4219<i class="fa-regular fa-circle-xmark"></i></h6>
+              <h6 class="user-component__subtitle">+1 787-493-4219<i class="fas fa-info-circle"></i></h6>
             </div>
           </div>
           <div class="user-component__column">
-            <i class="fa-sharp fa-regular fa-message fa-2x"></i>
+            <i id="user-component__i" class="fa-sharp fa-regular fa-message fa-2x"></i>
           </div>
+        </div>
+        <div class="more-icons">
+            <div class="more-icons__row">
+                <div class="more-icons__icon">
+                    <i class="far fa-calendar"></i>
+                    <span>Calendar</span>
+                </div>
+                <div class="more-icons__icon">
+                    <i class="fa-regular fa-hard-drive"><div class="more-icons__red-dot"></div></i>
+                    <span>Talk Drive</span>
+                </div>
+                <div class="more-icons__icon">
+                    <i class="far fa-smile-beam"></i>
+                    <span>Emoticons</span>
+                </div>
+                <div class="more-icons__icon">
+                    <i class="fas fa-paint-roller"></i>
+                    <span>Themes</span>
+                </div>
+            </div>
+            <div class="more-icons__row">
+                <div class="more-icons__icon">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Account</span>
+                </div>
+                <div class="more-icons__icon">
+                    <i class="fa-regular fa-comments"></i>
+                    <span>Openchat</span>
+                </div>
+                <div class="more-icons__icon">
+                </div>
+                <div class="more-icons__icon">
+                </div>
+            </div>
+        </div>
+        <div class="suggestions__header">
+            <span>Suggestions</span>
+        </div>
+        <div class="more-icons">
+            <div class="more-icons__row">
+                <div class="more-icons__icon">
+                    <i class="far fa-square"></i>
+                    <span>KaKao Story</span>
+                </div>
+                <div class="more-icons__icon">
+                    <i class="far fa-square"></i>
+                    <span>Kakao friends</span>
+                </div>
+                <div class="more-icons__icon">
+                    <i class="far fa-square"></i>
+                    <span>Friends Gem</span>
+                </div>
+                <div class="more-icons__icon">
+                </div>
+            </div>
         </div>
     </main>
 

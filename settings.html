@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Kokoa Clone</title>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>21:23</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>        
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <span class="screen-header__icon"><a href="more.html"><i class="fas fa-chevron-left fa-lg"></i></a></span>
+        <h1 class="screen-header__title">Settings</h1>
+        <span class="screen-header__icon"><i class="fas fa-search fa-lg"></i></span>
+    </header>
+
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span class="settings-setting__title">Notices</span>
+                </div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fas fa-flask"></i>
+                    <span class="settings-setting__title">Kakao Lab</span>
+                </div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fas fa-info-circle"></i>
+                    <span class="settings-setting__title">Version</span>
+                </div>
+                <div class="settings-setting__column">
+                    <span class="settings-setting__subtitle">Latest Version</span>
+                </div>
+            </li>
+        </ul>
+        <ul class="settings-list">
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fa-solid fa-lock"></i>
+                    <span class="settings-setting__title">Privacy</span>
+                </div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fa-regular fa-bell"></i>
+                    <span class="settings-setting__title">Notifications</span>
+                </div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fa-regular fa-user"></i>
+                    <span class="settings-setting__title">Friends</span>
+                </div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fa-regular fa-comment"></i>
+                    <span class="settings-setting__title">Chats</span>
+                </div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fas fa-info-circle"></i>
+                    <span class="settings-setting__title">Themes</span>
+                    <div class="settings-setting__icon red-dot__new">N</div>
+                </div>
+                <div class="settings-setting__column">
+                    <span class="settings-setting__subtitle">Default Theme</span>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+
+    <nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__btn">
+            <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="chats.html"><i class="far fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="more.html"><span class="nav__red-dot"></span><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </li>
+    </ul>
+    </nav>
+
+    <script 
+        src="https://kit.fontawesome.com/12d457089a.js" 
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
