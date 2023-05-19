@@ -1,0 +1,17 @@
+.chat-header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.chat-header__column {
+    width: 33%;
+}
+
+.chat-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.chat-header__column:last-child {
+    text-align: end;
+}
