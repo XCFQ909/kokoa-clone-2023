@@ -124,3 +124,49 @@
 .open-post__heart-count i {
     margin-right: 5px;
 }
+
+@keyframes heartBeating {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: red;
+        transform: scale(1.8);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+.open-post__heart-count .fa-heart:hover {
+    will-change: transform;
+    animation: heartBeating 0.7s ease-in-out infinite;
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+@keyframes FadeIn-own {
+    from {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+.message-row {
+    animation: FadeIn 1s ease-in-out forwards;
+}
+.message-row--own {
+    animation: FadeIn-own 1s ease-in-out forwards;
+}
