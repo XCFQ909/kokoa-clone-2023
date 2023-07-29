@@ -29,7 +29,7 @@ body {
 
 #original-name {
     position: absolute;
-    top: 0;
+    top:-100px;
     z-index: 500;
     width: 100vw;
     height: 100vh;
