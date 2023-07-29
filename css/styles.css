@@ -27,14 +27,18 @@ body {
 }
 
 #media-query {
+    z-index: 5;
     width: 100vw;
     height: 100vh;
     background-color: var(--yellow);
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 560px) {
     #media-query {
-        background-color: none;
+        background-color: rgba(0, 0, 0, 0);
         width: 0px;
         height: 0px;
         color: rgba(0, 0, 0, 0);
