@@ -26,3 +26,11 @@ body {
     padding: 0px var(--horizontal-space);
 }
 
+#media-query {
+    visibility: hidden;
+}
+@media screen and (min-width: 560px) {
+    #media-query {
+        background-color: var(--yellow);
+    }
+}
